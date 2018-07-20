@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACA159520DB45D6003D1624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA159420DB45D6003D1624 /* AppDelegate.m */; };
+		EACA159820DB45D6003D1624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA159720DB45D6003D1624 /* ViewController.m */; };
+		EACA159B20DB45D6003D1624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACA159920DB45D6003D1624 /* Main.storyboard */; };
+		EACA159D20DB45D6003D1624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACA159C20DB45D6003D1624 /* Assets.xcassets */; };
+		EACA15A020DB45D6003D1624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACA159E20DB45D6003D1624 /* LaunchScreen.storyboard */; };
+		EACA15A320DB45D6003D1624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA15A220DB45D6003D1624 /* main.m */; };
+		EACA15BF20DC957C003D1624 /* PYHCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA15BD20DC957C003D1624 /* PYHCalendarViewController.m */; };
+		EACA15C820DCC7CB003D1624 /* PYHCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA15C720DCC7CB003D1624 /* PYHCalendarCell.m */; };
+		EACA15CB20DCD0E8003D1624 /* PYHCalendarHandleSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EACA15CA20DCD0E8003D1624 /* PYHCalendarHandleSupport.m */; };
+		EAF3D43D20E0999F0084D6FF /* PYHCalendarDateSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D43C20E0999F0084D6FF /* PYHCalendarDateSupport.m */; };
+		EAF3D46220E215E60084D6FF /* PYHCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D46120E215E60084D6FF /* PYHCalendarAppearance.m */; };
+		EAF3D46F20E322B90084D6FF /* PYHCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D46E20E322B90084D6FF /* PYHCalendar.m */; };
+		EAF3D47220E324B50084D6FF /* PYHCalendarHeadBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D47120E324B50084D6FF /* PYHCalendarHeadBar.m */; };
+		EAF3D47520E326560084D6FF /* PYHCalendarWeekBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D47420E326560084D6FF /* PYHCalendarWeekBar.m */; };
+		EAF3D47820E32A8A0084D6FF /* PYHCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D47720E32A8A0084D6FF /* PYHCalendarCollectionView.m */; };
+		EAF3D47B20E48A4D0084D6FF /* PYHLookMemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D47A20E48A4D0084D6FF /* PYHLookMemoViewController.m */; };
+		EAF3D47E20E48CA20084D6FF /* PYHEditorMemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D47D20E48CA20084D6FF /* PYHEditorMemoViewController.m */; };
+		EAF3D48420E4B6760084D6FF /* PYHLookMemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D48320E4B6760084D6FF /* PYHLookMemoCell.m */; };
+		EAF3D48720E5D9C30084D6FF /* PYHMemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D48620E5D9C30084D6FF /* PYHMemoModel.m */; };
+		EAF3D4D120EF56E10084D6FF /* PYHMemoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D4D020EF56E10084D6FF /* PYHMemoSupport.m */; };
+		EAF3D4FA20F598470084D6FF /* PYHLookMarkScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D4F920F598470084D6FF /* PYHLookMarkScrollView.m */; };
+		EAF3D4FD20F598A10084D6FF /* PYHLookMarkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D4FC20F598A10084D6FF /* PYHLookMarkLabel.m */; };
+		EAF3D50F20F6F81D0084D6FF /* UIView+pyh_calendarFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D50E20F6F81D0084D6FF /* UIView+pyh_calendarFrame.m */; };
+		EAF3D51220F83FEC0084D6FF /* PYHMarkScrollSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D51120F83FEB0084D6FF /* PYHMarkScrollSupport.m */; };
+		EAF3D51520FC33C70084D6FF /* NSFileManager+pyhCanlendar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3D51420FC33C70084D6FF /* NSFileManager+pyhCanlendar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EACA159020DB45D6003D1624 /* can.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = can.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACA159320DB45D6003D1624 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EACA159420DB45D6003D1624 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EACA159620DB45D6003D1624 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EACA159720DB45D6003D1624 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EACA159A20DB45D6003D1624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACA159C20DB45D6003D1624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACA159F20DB45D6003D1624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EACA15A120DB45D6003D1624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACA15A220DB45D6003D1624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACA15BD20DC957C003D1624 /* PYHCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarViewController.m; sourceTree = "<group>"; };
+		EACA15BE20DC957C003D1624 /* PYHCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHCalendarViewController.h; sourceTree = "<group>"; };
+		EACA15C620DCC7CB003D1624 /* PYHCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendarCell.h; sourceTree = "<group>"; };
+		EACA15C720DCC7CB003D1624 /* PYHCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarCell.m; sourceTree = "<group>"; };
+		EACA15C920DCD0E8003D1624 /* PYHCalendarHandleSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendarHandleSupport.h; sourceTree = "<group>"; };
+		EACA15CA20DCD0E8003D1624 /* PYHCalendarHandleSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarHandleSupport.m; sourceTree = "<group>"; };
+		EAF3D43B20E0999F0084D6FF /* PYHCalendarDateSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendarDateSupport.h; sourceTree = "<group>"; };
+		EAF3D43C20E0999F0084D6FF /* PYHCalendarDateSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarDateSupport.m; sourceTree = "<group>"; };
+		EAF3D46020E215E60084D6FF /* PYHCalendarAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendarAppearance.h; sourceTree = "<group>"; };
+		EAF3D46120E215E60084D6FF /* PYHCalendarAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarAppearance.m; sourceTree = "<group>"; };
+		EAF3D46D20E322B90084D6FF /* PYHCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendar.h; sourceTree = "<group>"; };
+		EAF3D46E20E322B90084D6FF /* PYHCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendar.m; sourceTree = "<group>"; };
+		EAF3D47020E324B50084D6FF /* PYHCalendarHeadBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendarHeadBar.h; sourceTree = "<group>"; };
+		EAF3D47120E324B50084D6FF /* PYHCalendarHeadBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarHeadBar.m; sourceTree = "<group>"; };
+		EAF3D47320E326560084D6FF /* PYHCalendarWeekBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendarWeekBar.h; sourceTree = "<group>"; };
+		EAF3D47420E326560084D6FF /* PYHCalendarWeekBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarWeekBar.m; sourceTree = "<group>"; };
+		EAF3D47620E32A8A0084D6FF /* PYHCalendarCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHCalendarCollectionView.h; sourceTree = "<group>"; };
+		EAF3D47720E32A8A0084D6FF /* PYHCalendarCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHCalendarCollectionView.m; sourceTree = "<group>"; };
+		EAF3D47920E48A4D0084D6FF /* PYHLookMemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHLookMemoViewController.h; sourceTree = "<group>"; };
+		EAF3D47A20E48A4D0084D6FF /* PYHLookMemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHLookMemoViewController.m; sourceTree = "<group>"; };
+		EAF3D47C20E48CA20084D6FF /* PYHEditorMemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHEditorMemoViewController.h; sourceTree = "<group>"; };
+		EAF3D47D20E48CA20084D6FF /* PYHEditorMemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHEditorMemoViewController.m; sourceTree = "<group>"; };
+		EAF3D48220E4B6760084D6FF /* PYHLookMemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHLookMemoCell.h; sourceTree = "<group>"; };
+		EAF3D48320E4B6760084D6FF /* PYHLookMemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHLookMemoCell.m; sourceTree = "<group>"; };
+		EAF3D48520E5D9C30084D6FF /* PYHMemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHMemoModel.h; sourceTree = "<group>"; };
+		EAF3D48620E5D9C30084D6FF /* PYHMemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHMemoModel.m; sourceTree = "<group>"; };
+		EAF3D4CF20EF56E10084D6FF /* PYHMemoSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHMemoSupport.h; sourceTree = "<group>"; };
+		EAF3D4D020EF56E10084D6FF /* PYHMemoSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHMemoSupport.m; sourceTree = "<group>"; };
+		EAF3D4F820F598470084D6FF /* PYHLookMarkScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHLookMarkScrollView.h; sourceTree = "<group>"; };
+		EAF3D4F920F598470084D6FF /* PYHLookMarkScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHLookMarkScrollView.m; sourceTree = "<group>"; };
+		EAF3D4FB20F598A10084D6FF /* PYHLookMarkLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHLookMarkLabel.h; sourceTree = "<group>"; };
+		EAF3D4FC20F598A10084D6FF /* PYHLookMarkLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHLookMarkLabel.m; sourceTree = "<group>"; };
+		EAF3D50D20F6F81D0084D6FF /* UIView+pyh_calendarFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+pyh_calendarFrame.h"; sourceTree = "<group>"; };
+		EAF3D50E20F6F81D0084D6FF /* UIView+pyh_calendarFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+pyh_calendarFrame.m"; sourceTree = "<group>"; };
+		EAF3D51020F83FEB0084D6FF /* PYHMarkScrollSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYHMarkScrollSupport.h; sourceTree = "<group>"; };
+		EAF3D51120F83FEB0084D6FF /* PYHMarkScrollSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYHMarkScrollSupport.m; sourceTree = "<group>"; };
+		EAF3D51320FC33C70084D6FF /* NSFileManager+pyhCanlendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+pyhCanlendar.h"; sourceTree = "<group>"; };
+		EAF3D51420FC33C70084D6FF /* NSFileManager+pyhCanlendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+pyhCanlendar.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACA158D20DB45D6003D1624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACA158720DB45D6003D1624 = {
+			isa = PBXGroup;
+			children = (
+				EACA159220DB45D6003D1624 /* can */,
+				EACA159120DB45D6003D1624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACA159120DB45D6003D1624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACA159020DB45D6003D1624 /* can.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACA159220DB45D6003D1624 /* can */ = {
+			isa = PBXGroup;
+			children = (
+				EACA15A920DB9551003D1624 /* PYHCalendar */,
+				EAF3D4F720F597E00084D6FF /* PYHCalendarVC */,
+				EACA159320DB45D6003D1624 /* AppDelegate.h */,
+				EACA159420DB45D6003D1624 /* AppDelegate.m */,
+				EACA159620DB45D6003D1624 /* ViewController.h */,
+				EACA159720DB45D6003D1624 /* ViewController.m */,
+				EACA159920DB45D6003D1624 /* Main.storyboard */,
+				EACA159C20DB45D6003D1624 /* Assets.xcassets */,
+				EACA159E20DB45D6003D1624 /* LaunchScreen.storyboard */,
+				EACA15A120DB45D6003D1624 /* Info.plist */,
+				EACA15A220DB45D6003D1624 /* main.m */,
+			);
+			path = can;
+			sourceTree = "<group>";
+		};
+		EACA15A920DB9551003D1624 /* PYHCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3D46D20E322B90084D6FF /* PYHCalendar.h */,
+				EAF3D46E20E322B90084D6FF /* PYHCalendar.m */,
+				EAF3D47020E324B50084D6FF /* PYHCalendarHeadBar.h */,
+				EAF3D47120E324B50084D6FF /* PYHCalendarHeadBar.m */,
+				EAF3D47320E326560084D6FF /* PYHCalendarWeekBar.h */,
+				EAF3D47420E326560084D6FF /* PYHCalendarWeekBar.m */,
+				EAF3D47620E32A8A0084D6FF /* PYHCalendarCollectionView.h */,
+				EAF3D47720E32A8A0084D6FF /* PYHCalendarCollectionView.m */,
+				EACA15C620DCC7CB003D1624 /* PYHCalendarCell.h */,
+				EACA15C720DCC7CB003D1624 /* PYHCalendarCell.m */,
+				EAF3D43B20E0999F0084D6FF /* PYHCalendarDateSupport.h */,
+				EAF3D43C20E0999F0084D6FF /* PYHCalendarDateSupport.m */,
+				EACA15C920DCD0E8003D1624 /* PYHCalendarHandleSupport.h */,
+				EACA15CA20DCD0E8003D1624 /* PYHCalendarHandleSupport.m */,
+				EAF3D46020E215E60084D6FF /* PYHCalendarAppearance.h */,
+				EAF3D46120E215E60084D6FF /* PYHCalendarAppearance.m */,
+				EAF3D51320FC33C70084D6FF /* NSFileManager+pyhCanlendar.h */,
+				EAF3D51420FC33C70084D6FF /* NSFileManager+pyhCanlendar.m */,
+			);
+			path = PYHCalendar;
+			sourceTree = "<group>";
+		};
+		EAF3D4F720F597E00084D6FF /* PYHCalendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				EACA15BE20DC957C003D1624 /* PYHCalendarViewController.h */,
+				EACA15BD20DC957C003D1624 /* PYHCalendarViewController.m */,
+				EAF3D47920E48A4D0084D6FF /* PYHLookMemoViewController.h */,
+				EAF3D47A20E48A4D0084D6FF /* PYHLookMemoViewController.m */,
+				EAF3D47C20E48CA20084D6FF /* PYHEditorMemoViewController.h */,
+				EAF3D47D20E48CA20084D6FF /* PYHEditorMemoViewController.m */,
+				EAF3D48220E4B6760084D6FF /* PYHLookMemoCell.h */,
+				EAF3D48320E4B6760084D6FF /* PYHLookMemoCell.m */,
+				EAF3D4F820F598470084D6FF /* PYHLookMarkScrollView.h */,
+				EAF3D4F920F598470084D6FF /* PYHLookMarkScrollView.m */,
+				EAF3D51020F83FEB0084D6FF /* PYHMarkScrollSupport.h */,
+				EAF3D51120F83FEB0084D6FF /* PYHMarkScrollSupport.m */,
+				EAF3D4FB20F598A10084D6FF /* PYHLookMarkLabel.h */,
+				EAF3D4FC20F598A10084D6FF /* PYHLookMarkLabel.m */,
+				EAF3D48520E5D9C30084D6FF /* PYHMemoModel.h */,
+				EAF3D48620E5D9C30084D6FF /* PYHMemoModel.m */,
+				EAF3D4CF20EF56E10084D6FF /* PYHMemoSupport.h */,
+				EAF3D4D020EF56E10084D6FF /* PYHMemoSupport.m */,
+				EAF3D50D20F6F81D0084D6FF /* UIView+pyh_calendarFrame.h */,
+				EAF3D50E20F6F81D0084D6FF /* UIView+pyh_calendarFrame.m */,
+			);
+			path = PYHCalendarVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACA158F20DB45D6003D1624 /* can */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACA15A620DB45D6003D1624 /* Build configuration list for PBXNativeTarget "can" */;
+			buildPhases = (
+				EACA158C20DB45D6003D1624 /* Sources */,
+				EACA158D20DB45D6003D1624 /* Frameworks */,
+				EACA158E20DB45D6003D1624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = can;
+			productName = can;
+			productReference = EACA159020DB45D6003D1624 /* can.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACA158820DB45D6003D1624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HangzhouVongi;
+				TargetAttributes = {
+					EACA158F20DB45D6003D1624 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EACA158B20DB45D6003D1624 /* Build configuration list for PBXProject "can" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACA158720DB45D6003D1624;
+			productRefGroup = EACA159120DB45D6003D1624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACA158F20DB45D6003D1624 /* can */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACA158E20DB45D6003D1624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACA15A020DB45D6003D1624 /* LaunchScreen.storyboard in Resources */,
+				EACA159D20DB45D6003D1624 /* Assets.xcassets in Resources */,
+				EACA159B20DB45D6003D1624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACA158C20DB45D6003D1624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF3D48420E4B6760084D6FF /* PYHLookMemoCell.m in Sources */,
+				EAF3D47520E326560084D6FF /* PYHCalendarWeekBar.m in Sources */,
+				EAF3D46220E215E60084D6FF /* PYHCalendarAppearance.m in Sources */,
+				EAF3D47B20E48A4D0084D6FF /* PYHLookMemoViewController.m in Sources */,
+				EAF3D47220E324B50084D6FF /* PYHCalendarHeadBar.m in Sources */,
+				EACA15C820DCC7CB003D1624 /* PYHCalendarCell.m in Sources */,
+				EAF3D50F20F6F81D0084D6FF /* UIView+pyh_calendarFrame.m in Sources */,
+				EACA159820DB45D6003D1624 /* ViewController.m in Sources */,
+				EACA15A320DB45D6003D1624 /* main.m in Sources */,
+				EAF3D43D20E0999F0084D6FF /* PYHCalendarDateSupport.m in Sources */,
+				EAF3D48720E5D9C30084D6FF /* PYHMemoModel.m in Sources */,
+				EAF3D46F20E322B90084D6FF /* PYHCalendar.m in Sources */,
+				EAF3D4D120EF56E10084D6FF /* PYHMemoSupport.m in Sources */,
+				EAF3D51220F83FEC0084D6FF /* PYHMarkScrollSupport.m in Sources */,
+				EAF3D4FD20F598A10084D6FF /* PYHLookMarkLabel.m in Sources */,
+				EAF3D47820E32A8A0084D6FF /* PYHCalendarCollectionView.m in Sources */,
+				EACA15CB20DCD0E8003D1624 /* PYHCalendarHandleSupport.m in Sources */,
+				EAF3D51520FC33C70084D6FF /* NSFileManager+pyhCanlendar.m in Sources */,
+				EAF3D47E20E48CA20084D6FF /* PYHEditorMemoViewController.m in Sources */,
+				EACA159520DB45D6003D1624 /* AppDelegate.m in Sources */,
+				EACA15BF20DC957C003D1624 /* PYHCalendarViewController.m in Sources */,
+				EAF3D4FA20F598470084D6FF /* PYHLookMarkScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EACA159920DB45D6003D1624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACA159A20DB45D6003D1624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACA159E20DB45D6003D1624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACA159F20DB45D6003D1624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACA15A420DB45D6003D1624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EACA15A520DB45D6003D1624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACA15A720DB45D6003D1624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKEQ7F3H7J;
+				INFOPLIST_FILE = can/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vongihealth.can;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EACA15A820DB45D6003D1624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKEQ7F3H7J;
+				INFOPLIST_FILE = can/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vongihealth.can;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACA158B20DB45D6003D1624 /* Build configuration list for PBXProject "can" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA15A420DB45D6003D1624 /* Debug */,
+				EACA15A520DB45D6003D1624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACA15A620DB45D6003D1624 /* Build configuration list for PBXNativeTarget "can" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACA15A720DB45D6003D1624 /* Debug */,
+				EACA15A820DB45D6003D1624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACA158820DB45D6003D1624 /* Project object */;
+}
